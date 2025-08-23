@@ -1,0 +1,73 @@
+# 🔐 Секретные файлы (никогда не загружайте их!)
+.env
+.env.local
+.env.*.local
+
+# 📱 Telegram сессии
+*.session
+*.session-journal
+finalV2.session
+finalV2.session-journal
+
+# 📊 Логи и история
+purchase_log.txt
+seen_gifts.json
+*.log
+logs/
+
+# 💾 Резервные копии (создаются автоматически)
+*.backup
+*.tmp
+
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 📦 Виртуальные среды
+venv/
+env/
+ENV/
+.venv/
+.env/
+pyvenv.cfg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 🖥️ IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 📂 Операционная система
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 📈 Данные пользователя
+budgets.json
+budgets_unlim.json
+config.py
