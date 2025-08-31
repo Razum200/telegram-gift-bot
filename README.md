@@ -71,7 +71,7 @@
 
 #### Вариант 2: Через Git (для продвинутых)
 ```bash
-git clone https://github.com/your-username/telegram-gift-bot.git
+git clone https://github.com/Razum200/telegram-gift-bot.git
 cd telegram-gift-bot
 ```
 
